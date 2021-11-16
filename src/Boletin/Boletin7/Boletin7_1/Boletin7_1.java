@@ -7,11 +7,11 @@ public class Boletin7_1 {
 
         int num= Integer.parseInt(JOptionPane.showInputDialog("! Introduce un Numero !"));
 
-        if(num%2==0){
-            JOptionPane.showMessageDialog(null,"El numero \"" +num+"\" es par");
+        if(num>=0){
+            JOptionPane.showMessageDialog(null,"El numero \"" +num+"\" es positivo");
         }
-        else {
-            JOptionPane.showMessageDialog(null,"El numero \"" +num+"\" es impar");
-        }
+//        else {
+//            JOptionPane.showMessageDialog(null,"El numero \"" +num+"\" es negativo");
+//        }
     }
 }
