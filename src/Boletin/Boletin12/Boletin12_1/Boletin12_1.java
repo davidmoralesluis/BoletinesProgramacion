@@ -5,17 +5,8 @@ import java.util.Random;
 public class Boletin12_1 {
     public static void main(String[] args) {
 
-        Random ale= new Random();
+        Garaxe parking = new Garaxe(5);
 
-        System.out.println(ale.nextInt(11));
-        System.out.println(ale.nextInt(11));
-        System.out.println(ale.nextInt(11));
-        System.out.println(ale.nextInt(11));
-        System.out.println(ale.nextInt(11));
-        System.out.println(ale.nextInt(11));
-        System.out.println(ale.nextInt(11));
-        System.out.println(ale.nextInt(11));
-
-
+        parking.startApp();
     }
 }
